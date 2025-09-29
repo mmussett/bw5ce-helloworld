@@ -1,6 +1,6 @@
 appConfig:
-  appId: d3d8571np0nc73fna8ng
-  buildId: 58bd188c00a14f0ba9d6e7b56d422d76
+  appId: d3d8cahnp0nc73fna8o0
+  buildId: 7d5e16a4ed644ce8af3154b8e315970e
   bwProfile: default.substvar
   tags: build-66-version-1.0.0-branch-MAIN
 appInit:
