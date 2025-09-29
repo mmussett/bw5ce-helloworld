@@ -1,6 +1,0 @@
-{
- "appId": "d3d8cahnp0nc73fna8o0",
- "status": "success",
- "code": "200",
- "message": "Application deployment is successful"
-}
