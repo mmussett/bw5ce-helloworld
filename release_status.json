@@ -1,5 +1,5 @@
 {
  "errCode": "BW-PLT-1000",
  "errMsg": "Operation failed",
- "errDetail": "failed to get deployment for appId:d3d8571np0nc73fna8ng, error: The Deployment CR for 'd3d8571np0nc73fna8ng' doesn't exist."
+ "errDetail": "failed to get deployment for appId:d3d8cahnp0nc73fna8o0, error: The Deployment CR for 'd3d8cahnp0nc73fna8o0' doesn't exist."
 }
