@@ -1,6 +1,6 @@
 appConfig:
-  appId: d3no329np0nc73de7r3g
-  buildId: cf86bc33863148afaa63eb619ca43067
+  appId: d3noml9np0nc73de7r40
+  buildId: ff0fc21031bd40b0af8db4fd0a717304
   bwProfile: default.substvar
   tags: build-66-version-1.0.0-branch-MAIN
 appInit:
@@ -30,7 +30,7 @@ appProps:
     TIBHawkDaemon: tcp:7474
     TIBHawkNetwork: ''
     TIBHawkService: '7474'
-    EmsUrl: 'tcp://dev-emsactive.dp1.svc:9011,tcp://dev-ems.dp1.svc:9011'
+    EmsUrl: tcp://dev-emsactive.dp1.svc:9011,tcp://dev-ems.dp1.svc:9011
 appSecrets:
   default.substvar: {}
 autoscaling:
