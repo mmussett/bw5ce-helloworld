@@ -46,7 +46,7 @@ engineProps:
   BW_ENGINE_STEPCOUNT: '-1'
   BW_ENGINE_THREADCOUNT: '8'
   BW_OTEL_METRICS_ENABLED: 'true'
-  BW_OTEL_TRACES_ENABLED: 'false'
+  BW_OTEL_TRACES_ENABLED: 'true'
 fluentBit:
   enabled: true
   resources:
