@@ -1,6 +1,6 @@
 appConfig:
-  appId: d3np819np0nc73de7r4g
-  buildId: 41ccc3774d3749d0ac718f33000b3c64
+  appId: d3nqhshnp0nc73de7r50
+  buildId: d1a638fac83648c5884edf86c82f7699
   bwProfile: default.substvar
   tags: build-66-version-1.0.0-branch-MAIN
 appInit:
@@ -17,19 +17,19 @@ appProps:
     DirLedger: .
     DirTrace: .
     Domain: domain
-    HawkEnabled: "false"
+    HawkEnabled: 'false'
     JmsProviderUrl: tcp://localhost:7222
     JmsSslProviderUrl: ssl://localhost:7243
     MessageEncoding: ISO8859-1
-    RemoteRvDaemon: ""
+    RemoteRvDaemon: ''
     RvDaemon: tcp:7500
-    RvNetwork: ""
-    RvService: "7500"
+    RvNetwork: ''
+    RvService: '7500'
     RvaHost: localhost
-    RvaPort: "7600"
+    RvaPort: '7600'
     TIBHawkDaemon: tcp:7474
-    TIBHawkNetwork: ""
-    TIBHawkService: "7474"
+    TIBHawkNetwork: ''
+    TIBHawkService: '7474'
     EmsUrl: tcp://dev-emsactive.dp1.svc:9011,tcp://dev-ems.dp1.svc:9011
 appSecrets:
   default.substvar: {}
@@ -38,16 +38,16 @@ autoscaling:
 bwapp:
   resources:
     limits:
-      cpu: "1"
+      cpu: '1'
       memory: 1Gi
     requests:
       cpu: 250m
       memory: 384Mi
 engineProps:
-  BW_ENGINE_STEPCOUNT: "-1"
-  BW_ENGINE_THREADCOUNT: "8"
-  BW_OTEL_METRICS_ENABLED: "true"
-  BW_OTEL_TRACES_ENABLED: "false"
+  BW_ENGINE_STEPCOUNT: '-1'
+  BW_ENGINE_THREADCOUNT: '8'
+  BW_OTEL_METRICS_ENABLED: 'true'
+  BW_OTEL_TRACES_ENABLED: 'false'
 fluentBit:
   enabled: true
   resources:
