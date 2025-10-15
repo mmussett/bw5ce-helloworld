@@ -1,12 +1,5 @@
 {
- "releaseName": "helloworld",
- "releaseStatus": "deployed",
- "releaseVersion": 6,
- "releaseDescription": "Upgrade complete",
- "firstDeployed": "2025-09-29 15:55:29.777922369 +0000 UTC",
- "lastDeployed": "2025-10-15 10:50:48.91000464 +0000 UTC",
- "chartName": "dp-bw5ce-app",
- "chartVersion": "1.10.2",
- "chartAppVersion": "1.10.0",
- "namespace": "dp1"
+ "errCode": "BW-PLT-1000",
+ "errMsg": "Operation failed",
+ "errDetail": "failed to get deployment for appId:d3dans9np0nc73fna8p0, error: The Deployment CR for 'd3dans9np0nc73fna8p0' doesn't exist."
 }
