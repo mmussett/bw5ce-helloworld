@@ -35,11 +35,11 @@
 		</globalVariable>
 		<globalVariable>
 			<name>EmsUrl</name>
-			<value>tcp://dev-emsactive.dp1.svc:9011,tcp://dev-ems.dp1.svc:9011</value>
+			<value>tcp://localhost:7222</value>
 			<deploymentSettable>true</deploymentSettable>
 			<serviceSettable>false</serviceSettable>
 			<type>String</type>
-			<modTime>1760527123070</modTime>
+			<modTime>1760529139574</modTime>
 		</globalVariable>
 		<globalVariable>
 			<name>HawkEnabled</name>
