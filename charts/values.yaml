@@ -30,6 +30,7 @@ appProps:
     TIBHawkDaemon: tcp:7474
     TIBHawkNetwork: ''
     TIBHawkService: '7474'
+    EmsUrl: 'tcp://dev-emsactive.dp1.svc:9011,tcp://dev-ems.dp1.svc:9011'
 appSecrets:
   default.substvar: {}
 autoscaling:
