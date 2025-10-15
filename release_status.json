@@ -1,10 +1,10 @@
 {
  "releaseName": "helloworld",
  "releaseStatus": "deployed",
- "releaseVersion": 2,
+ "releaseVersion": 4,
  "releaseDescription": "Upgrade complete",
  "firstDeployed": "2025-10-15 11:12:09.401711537 +0000 UTC",
- "lastDeployed": "2025-10-15 11:12:55.714951623 +0000 UTC",
+ "lastDeployed": "2025-10-15 11:22:53.007877834 +0000 UTC",
  "chartName": "dp-bw5ce-app",
  "chartVersion": "1.10.2",
  "chartAppVersion": "1.10.0",
