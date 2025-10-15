@@ -8,13 +8,17 @@
         <processArchive name="Process Archive">
             <resourceType>process.archive.resource</resourceType>
             <authorProperty>Mark</authorProperty>
-            <processProperty>/Processes/Starters/Main.process</processProperty>
+            <processProperty>/Processes/Starters/Main.process,/Processes/Starters/TopicSubscriberProcess.process</processProperty>
         </processArchive>
         <versionProperty>2</versionProperty>
         <authorProperty>Mark</authorProperty>
         <addServiceSettableGvars>true</addServiceSettableGvars>
         <name>helloworld</name>
-        <designer/>
+        <designer>
+            <lockedProperties/>
+            <fixedChildren/>
+            <resourceDescriptions/>
+        </designer>
         <fileLocationProperty>D:\src\demos\bw5\helloworld\builds\helloworld.ear</fileLocationProperty>
     </enterpriseArchive>
 </Repository:repository>
