@@ -1,0 +1,62 @@
+appConfig:
+  appId: d3no329np0nc73de7r3g
+  buildId: 167626ae3e01414b9854cfd4f4b5eac3
+  bwProfile: default.substvar
+  tags: build-66-version-1.0.0-branch-MAIN
+appInit:
+  resources:
+    limits:
+      cpu: 100m
+      memory: 200Mi
+    requests:
+      cpu: 10m
+      memory: 10Mi
+appProps:
+  default.substvar:
+    Deployment: prj
+    DirLedger: .
+    DirTrace: .
+    Domain: domain
+    HawkEnabled: 'false'
+    JmsProviderUrl: tcp://localhost:7222
+    JmsSslProviderUrl: ssl://localhost:7243
+    MessageEncoding: ISO8859-1
+    RemoteRvDaemon: ''
+    RvDaemon: tcp:7500
+    RvNetwork: ''
+    RvService: '7500'
+    RvaHost: localhost
+    RvaPort: '7600'
+    TIBHawkDaemon: tcp:7474
+    TIBHawkNetwork: ''
+    TIBHawkService: '7474'
+appSecrets:
+  default.substvar: {}
+autoscaling:
+  enabled: false
+bwapp:
+  resources:
+    limits:
+      cpu: '1'
+      memory: 1Gi
+    requests:
+      cpu: 250m
+      memory: 384Mi
+engineProps:
+  BW_ENGINE_STEPCOUNT: '-1'
+  BW_ENGINE_THREADCOUNT: '8'
+  BW_OTEL_METRICS_ENABLED: 'true'
+  BW_OTEL_TRACES_ENABLED: 'true'
+fluentBit:
+  enabled: true
+  resources:
+    limits:
+      cpu: 100m
+      memory: 100Mi
+    requests:
+      cpu: 10m
+      memory: 10Mi
+fullnameOverride: helloworld
+replicaCount: 0
+service:
+  ports: []
